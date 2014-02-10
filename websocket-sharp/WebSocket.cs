@@ -949,7 +949,7 @@ namespace WebSocketSharp
 
 	  if(_headers != null){
 	    foreach(var e in _headers){
-		  _headers[e.Key] = e.Value;
+		  headers[e.Key] = e.Value;
 		}
 	  }
 
